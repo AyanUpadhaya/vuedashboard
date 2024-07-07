@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "AvenirNext";
+  src: url(./assets/font/AvenirNextLTPro-Bold.otf);
+  font-style: normal;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+  @layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
+
+
+  
+  /* daisy ui style end */
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color:#EFFEFD;
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #31BA96;
+    border-radius: 10px;
+  }
+  
+  .bg{
+    color: rgba(3, 187, 190, 0.582)  ;
+  }
