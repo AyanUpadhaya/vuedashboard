@@ -6,7 +6,7 @@
       <!-- profile -->
       <div class="profile">
         <!-- logo -->
-        <div class="w-max mb-8 relative">
+        <div class="w-max relative">
           <div class="max-w-[95px] h-[95px]">
             <img :src="profile" alt="" />
           </div>
